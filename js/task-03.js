@@ -41,4 +41,4 @@ gallery.style.gap = "10px";
 gallery.style.listStyle = "none";
 gallery.style.padding = "0px";
 
-gallery.innerHTML = imgToGallery;
+gallery.insertAdjacentHTML("beforeend", imgToGallery);
