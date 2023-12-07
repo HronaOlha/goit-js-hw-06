@@ -6,7 +6,7 @@
 
 Write a script that:
 - It will count and output to the console the number of categories in ul#categories, i.e. li.item elements.
-- For each li.item element in the ul#categories list, it will find and output to the console the text of the element's title(the h2 tag) and the number of elements in the category (all li's nested in it).
+- For each li.item element in the ul#categories list, it will find and output to the console the text of the element's title(the h2 tag) and the number of elements in the category (all li nested in it).
   
 To perform this task, you need to use the forEach() method and DOM navigation properties.
 As a result, the following messages will be displayed in the console:
